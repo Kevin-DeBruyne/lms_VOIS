@@ -28,4 +28,4 @@ class Pokedex extends Component {
     );
   }
 }
-export default Pokecard;
+export default Pokedex;

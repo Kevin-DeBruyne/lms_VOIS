@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
-import Pokecard from "./components/Pokecard.js";
+import Pokedex from "./components/Pokedex.js";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         {/* <Pokecard id={4} name="Charmander" type="fire" exp={62} /> */}
-        <Pokecard />
+        <Pokedex />
       </div>
     );
   }
